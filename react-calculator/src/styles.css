@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(to right,#953420, #FAD9D9);
+    background: linear-gradient(to right,#953420, #DB9893);
 }
 
 .calculator-grid {
@@ -52,4 +52,18 @@ body {
 .output .current-operand {
     color: white;
     font-size: 2.5rem;
+}
+
+.calculator-title{
+    font-size: 5rem;
+    color: #FFEEED;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.calculator-description{
+    text-align: center;
+    color: #e9e9e9;
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
 }
